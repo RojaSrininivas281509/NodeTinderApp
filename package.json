@@ -1,0 +1,22 @@
+{
+  "name": "namastenodetinder",
+  "version": "1.0.0",
+  "description": "Node Tinder Application",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src/app.js",
+    "start":"node src/app.js",
+    "test": "vitest"
+  },
+  "keywords": [
+    "Node",
+    "Javascript",
+    "Express",
+    "Mongo"
+  ],
+  "author": "Roja Vundavilli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
